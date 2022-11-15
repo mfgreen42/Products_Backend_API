@@ -70,7 +70,9 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'products_project.wsgi.application'
 
-
+REST_FRAMEWORK = {
+    'COERCE_DECIMAL_TO_STRING': False
+}
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
